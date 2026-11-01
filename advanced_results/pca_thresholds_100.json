@@ -1,0 +1,60 @@
+{
+  "all_thresholds": [
+    {
+      "quantile": 0.9,
+      "threshold": 0.07154245674610138,
+      "accuracy": 0.4951790633608815,
+      "precision_anomaly": 0.39878892733564014,
+      "recall_anomaly": 0.9238476953907816,
+      "f1_anomaly": 0.5570996978851964
+    },
+    {
+      "quantile": 0.925,
+      "threshold": 0.07970279455184937,
+      "accuracy": 0.5426997245179064,
+      "precision_anomaly": 0.42238946378174974,
+      "recall_anomaly": 0.8997995991983968,
+      "f1_anomaly": 0.5749039692701664
+    },
+    {
+      "quantile": 0.95,
+      "threshold": 0.09115757793188095,
+      "accuracy": 0.6012396694214877,
+      "precision_anomaly": 0.4566160520607375,
+      "recall_anomaly": 0.843687374749499,
+      "f1_anomaly": 0.5925404644616468
+    },
+    {
+      "quantile": 0.975,
+      "threshold": 0.1255154013633728,
+      "accuracy": 0.7513774104683195,
+      "precision_anomaly": 0.6236559139784946,
+      "recall_anomaly": 0.6973947895791583,
+      "f1_anomaly": 0.6584673604541155
+    },
+    {
+      "quantile": 0.99,
+      "threshold": 0.19584178924560547,
+      "accuracy": 0.731404958677686,
+      "precision_anomaly": 0.7511520737327189,
+      "recall_anomaly": 0.32665330661322645,
+      "f1_anomaly": 0.4553072625698324
+    }
+  ],
+  "selected": {
+    "quantile": 0.975,
+    "threshold": 0.1255154013633728,
+    "accuracy": 0.7513774104683195,
+    "precision_anomaly": 0.6236559139784946,
+    "recall_anomaly": 0.6973947895791583,
+    "f1_anomaly": 0.6584673604541155
+  },
+  "best_recall": {
+    "quantile": 0.99,
+    "threshold": 0.19584178924560547,
+    "accuracy": 0.731404958677686,
+    "precision_anomaly": 0.7511520737327189,
+    "recall_anomaly": 0.32665330661322645,
+    "f1_anomaly": 0.4553072625698324
+  }
+}

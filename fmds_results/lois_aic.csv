@@ -1,0 +1,5 @@
+loi,parametres,neg_loglik,AIC,MTTF_h
+Log-normale,mu=7.158; sigma=0.515,734.48,1473.0,1466.5
+Gamma,k=5.220; theta=259.2,735.20,1474.4,1353.1
+Weibull,beta=2.981; eta=1422.6,737.04,1478.1,1270.0
+Exponentielle,lambda=0.000427,779.43,1560.9,2339.5
